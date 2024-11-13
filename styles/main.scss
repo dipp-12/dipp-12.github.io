@@ -17,4 +17,18 @@ $badge-font-weight: $font-weight-normal;
   margin-bottom: 1px;
 }
 
+// Custom styling for .card-img-top to scale image in cards
+.card-img-top {
+  //width: 100%; /* Adjust width to fit card */
+  //height: auto; /* Maintain aspect ratio */
 
+  /* Optional: Uncomment to adjust image scaling behavior */
+   //height: 200px; /* Set a fixed height if needed */
+   //object-fit: cover; /* Scales image to fill card area while maintaining aspect ratio */
+   //transition: transform 0.3s ease; /* For hover effect */
+
+  /* Optional: Add hover effect */
+  //&:hover {
+  //  transform: scale(1.1); /* Slightly scale image on hover */
+  //}
+}
